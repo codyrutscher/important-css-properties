@@ -1,0 +1,94 @@
+div { 
+       display: block; 
+       display: inline-block; 
+       display: inline; 
+       display: none;
+       display: flex;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       padding-right: 10px;
+       padding-left: 10px;
+       border: 1px solid black;
+      /* border width, style and color */
+       background-color: #b0d4de; 
+       color: #fff;
+       background-image: url("blur.jpg");
+       background-repeat: repeat-x;
+       background-attachment: fixed;
+       background-position: center;
+       position: fixed;
+       position: static;
+       position: absolute;
+       position: relative;
+       position: sticky;
+       position: initial;
+       position: inherit;
+       z-index: 1;
+       top: 20px;
+       right: 20px;
+       bottom: 20px;
+       left: 20px;
+       transform: rotate(20deg);
+       transform: scale(2);
+       float: right;
+       float: left;
+       flex-wrap: nowrap; /* Default value */
+       flex-wrap: wrap;
+       flex-wrap: wrap-reverse;
+
+       /* Global values */
+       flex-wrap: inherit;
+       flex-wrap: initial;
+       flex-wrap: revert;
+       flex-wrap: revert-layer;
+       flex-wrap: unset;
+       /* Basic positional alignment */
+       /* align-content does not take left and right values */
+       align-content: center; /* Pack items around the center */
+       align-content: start; /* Pack items from the start */
+       align-content: end; /* Pack items from the end */
+       align-content: flex-start; /* Pack flex items from the start */
+       align-content: flex-end; /* Pack flex items from the end */
+
+       /* Normal alignment */
+       align-content: normal;
+
+       /* Baseline alignment */
+       align-content: baseline;
+       align-content: first baseline;
+       align-content: last baseline;
+
+       /* Distributed alignment */
+       align-content: space-between; /* Distribute items evenly
+                                 The first item is flush with the start,
+                                 the last is flush with the end */
+       align-content: space-around; /* Distribute items evenly
+                                 Items have a half-size space
+                                 on either end */
+       align-content: space-evenly; /* Distribute items evenly
+                                 Items have equal space around them */
+       align-content: stretch; /* Distribute items evenly
+                                 Stretch 'auto'-sized items to fit
+                                 the container */
+
+       /* Overflow alignment */
+       align-content: safe center;
+       align-content: unsafe center;
+
+       /* Global values */
+       align-content: inherit;
+       align-content: initial;
+       align-content: revert;
+       align-content: revert-layer;
+       align-content: unset;
+  
+ }
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+
